@@ -92,3 +92,41 @@ footer ul {
 .footer-item img {
   width: 100px;
 }
+
+.content {
+  margin: 3% 10%;
+}
+
+.content h1 {
+  margin-bottom: 12px;
+}
+
+.content p {
+  line-height: 26px;
+  text-align: justify;
+}
+
+.content .event {
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  width: 48%;
+}
+
+.content .event img {
+  width: 100%;
+  height: auto;
+}
+
+
+.content .event h1 {
+  margin: 12px 0px;
+}
+
+.content .events-container {
+  display: flex;
+  gap: 32px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
