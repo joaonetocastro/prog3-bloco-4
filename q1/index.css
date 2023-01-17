@@ -111,6 +111,8 @@ footer ul {
   background: white;
   border-radius: 15px;
   width: 48%;
+  display: flex;
+  flex-direction: column;
 }
 
 .content .event img {
@@ -121,6 +123,26 @@ footer ul {
 
 .content .event h1 {
   margin: 12px 0px;
+}
+
+.content .event a {
+  margin-left: auto;
+  margin-top: auto;
+  display: block;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 15px;
+  background: linear-gradient(-45deg, #1C529F, #3f6eaf);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .3s;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.content .event a:hover {
+  filter: brightness(1.2);
 }
 
 .content .events-container {
