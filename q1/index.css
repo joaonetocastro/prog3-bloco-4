@@ -48,11 +48,47 @@ header ul {
 .menu-right ul li a {
   text-decoration: none;
   border: 1.5px solid transparent;
-  color: #1c529f;
+  color: #1C529F;
   padding: 10px;
   border-radius: 10px;
 }
 
 .menu-right ul li a:hover {
-  border: 1.5px solid #1c529f;
+  border: 1.5px solid #1C529F;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-item h3 {
+  color: #1C529F;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.footer-item ul li {
+  margin: 15px 0;
+}
+
+.footer-item ul li a {
+  text-decoration: none;
+  border-radius: 10px;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.footer-item img {
+  width: 100px;
 }
