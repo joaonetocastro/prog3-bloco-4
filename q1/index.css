@@ -153,3 +153,45 @@ footer ul {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+form#form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: white;
+  max-width: 480px;
+  margin: 40px auto;
+  gap: 6px;
+  border-radius: 15px;
+}
+
+form#form div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+form#form input {
+  padding: 12px;
+  border-radius: 15px;
+  border: 2px solid #eee;
+}
+
+
+form#form button {
+  display: block;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 15px;
+  background: linear-gradient(-45deg, #1C529F, #3f6eaf);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .3s;
+  text-decoration: none;
+  margin-left: auto;
+}
+
+form#form button:hover {
+  filter: brightness(1.2);
+}
