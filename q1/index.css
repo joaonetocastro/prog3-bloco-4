@@ -5,11 +5,6 @@
   outline: 0;
 }
 
-html {
-  overflow: scroll;
-  overflow-x: hidden;
-}
-
 body {
   font-family: "Montserrat";
   background: #F1F4F9;
@@ -28,9 +23,6 @@ header {
 header ul {
   display: flex;
   list-style: none;
-}
-
-.menu-left {
 }
 
 .menu-right {
@@ -91,6 +83,7 @@ footer ul {
 
 .footer-item img {
   width: 100px;
+  margin-bottom: 10px;
 }
 
 .content {
@@ -209,4 +202,15 @@ form#form button:hover {
 
 form#form h1 {
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu-right ul li {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .footer-item:nth-child(3) {
+    display: none;
+  }
 }
